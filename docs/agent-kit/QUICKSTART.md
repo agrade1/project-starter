@@ -1,5 +1,11 @@
 # 새 프로젝트 시작
 
+## GitHub 템플릿으로 새 저장소 만들기
+
+GitHub 템플릿으로 등록한 저장소에서는 **Use this template → Create a new repository**를 선택한다. 소유자·새 이름·공개 범위를 확인하고 기본 브랜치만 복사한다. 생성된 **새 저장소**를 clone한 뒤 Orca에서 그 폴더를 열고 아래 빈 프로젝트 절의 2~4단계를 따른다. 원격 저장소 생성이 승인된 경우에만 수행한다.
+
+이 방식은 파일 구조를 가져오며 새 Git 이력으로 시작한다. 기존 프로젝트는 아래 병합 절차를 따른다. [GitHub 공식 안내](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+
 ## 빈 프로젝트
 
 1. 템플릿의 `AGENTS.md`, `CLAUDE.md`, `README.md`, `docs/`를 새 프로젝트 폴더에 복사한다. `.git`은 복사하지 않는다. 아래 두 절대경로를 실제 값으로 바꾸고 실행한다. 대상 경로가 이미 있으면 덮어쓰지 않고 실패한다.
