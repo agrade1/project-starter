@@ -4,6 +4,7 @@
 2. [공통 규칙](WORKING_RULES.md)을 읽고 사용자 요청의 승인 범위와 종료 지점을 확인한다.
 3. 아래에서 워크플로 하나, 맡은 역할 하나, 그 역할이 지정한 기능만 읽는다. 관련 없는 보고서·다른 역할 전문은 기본 컨텍스트에 넣지 않는다.
 4. 산출물 경로는 프로젝트의 기존 위치를 우선한다. 없으면 [프로젝트 양식](../templates/PROJECT.md)의 경로표를 채운다. 아래 `docs/project/` 경로는 대상 프로젝트용 기본값이지 킷 안에 이미 있는 파일이 아니다.
+5. 새 서비스·여러 단계·비평 후 수정·세션 재개에는 [하네스·루프·그래프 운영](OPERATING_MODEL.md)을 적용한다. 아이디어 문서는 원문을 보존하고 [접수 절차](../workflows/new-service.md#아이디어와-기획서-접수)부터 진행한다. 리뷰어에게는 [독립 비평 입력](../templates/REVIEW_PACKET.md)을 전달한다.
 
 | 요청 | 시작 역할 | 워크플로 | 필요할 때만 읽는 기능 |
 |---|---|---|---|
@@ -17,4 +18,4 @@
 | 비평·코드 리뷰·QA | [독립 리뷰·QA](../roles/reviewer.md) | [기능 추가](../workflows/feature.md)의 검증 단계 | [독립 리뷰](../capabilities/review.md), [검증](../capabilities/verification.md) |
 | 출시 준비·운영 인계 | [기획·진행](../roles/coordinator.md) + 해당 책임자 | 현재 워크플로의 인계 단계 | [출시 준비](../capabilities/release.md) |
 
-템플릿은 [PROJECT](../templates/PROJECT.md), [RESEARCH](../templates/RESEARCH.md), [DESIGN](../templates/DESIGN.md), [TECH_PLAN](../templates/TECH_PLAN.md), [TASK](../templates/TASK.md), [REVIEW](../templates/REVIEW.md), [HANDOFF](../templates/HANDOFF.md) 중 필요한 것만 사용한다.
+템플릿은 [PROJECT](../templates/PROJECT.md), [RESEARCH](../templates/RESEARCH.md), [DESIGN](../templates/DESIGN.md), [TECH_PLAN](../templates/TECH_PLAN.md), [TASK](../templates/TASK.md), [REVIEW_PACKET](../templates/REVIEW_PACKET.md), [REVIEW](../templates/REVIEW.md), [HANDOFF](../templates/HANDOFF.md) 중 필요한 것만 사용한다.
